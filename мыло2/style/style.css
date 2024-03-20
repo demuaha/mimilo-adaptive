@@ -1,0 +1,1031 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    color: #7a7979;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.container a {
+    color: grey;
+}
+
+.container .navigation-1 a:nth-child(1) {
+    margin-right: 20px;
+}
+
+.container .navigation-2 a:nth-child(1) {
+    margin-right: 20px;
+}
+
+.container .navigation-2 a:nth-child(2) {
+    margin-right: 20px;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
+    justify-content: center;
+}
+
+.section-grid img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.section-grid img:nth-child(1) {
+    grid-column: 1/3;
+    grid-row: 1/3;
+
+}
+
+.section-grid img:nth-child(2) {
+    grid-column: 5/11;
+    grid-row: 3/10;
+}
+
+.section-grid img:nth-child(3) {
+    grid-column: 2/4;
+    grid-row: 8/10;
+}
+
+.section-grid h1 {
+    grid-column: 2/8;
+    grid-row: 6/8;
+    z-index: 2;
+    color: gray;
+    font-family: Montseratt, cursive;
+}
+
+.body1 {
+    display: flex;
+    justify-content: center;
+}
+
+.body-text {
+    display: flex;
+    align-items: center
+}
+
+.body-text p {
+    color: gray;
+    font-family: Montseratt, cursive;
+    font-size: 24px;
+    max-width: 35ch;
+}
+
+.collection .line {
+    margin-top: 20px;
+    margin: 3.4vw 0;
+    width: 60px;
+    height: 3px;
+    background-color: #7a7979;
+
+}
+
+.collection .header {
+    display: flex;
+    margin-left: 10vw;
+    align-items: center;
+}
+
+.collection .text p {
+    margin-left: 15px;
+    color: #7a7979;
+}
+
+
+
+.cards .photo {
+    display: flex;
+
+
+}
+
+.photo p {
+    margin-top: 5px;
+}
+
+.photo .about1 i {
+    margin-left: 170px
+}
+
+.photo .about2 i {
+    margin-left: 170px
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about1 {
+    margin-left: 13%;
+}
+
+.about1 img {
+    max-width: 75%;
+}
+
+.about2 {
+    margin-left: 13%;
+}
+
+.about2 img {
+    max-width: 75%;
+}
+
+.about3 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.about3 img {
+    max-width: 70%;
+}
+
+.collection {
+    margin-bottom: 50px;
+}
+
+.history .header .line {
+    margin: 3.4vw 0;
+    width: 60px;
+    height: 3px;
+    background-color: #7a7979;
+}
+
+.history .header {
+    display: flex;
+    margin-left: 10vw;
+    align-items: center;
+}
+
+.history-text {
+    margin-left: 15px;
+}
+
+.history .container {
+    display: grid;
+    grid-template-columns: repeat(15, 70px);
+    grid-template-rows: repeat(15, 70px);
+    justify-content: center;
+}
+
+.container .zagolovok {
+    grid-column: 2/9;
+    grid-row: 1/3;
+}
+
+.container .text {
+    grid-column: 2/9;
+    grid-row: 2/3;
+    margin-top: 10px;
+}
+
+.container .photo1 {
+    grid-row: 2/9;
+    grid-column: 9/16;
+
+}
+
+.container .photo1 img {
+    max-width: 100%;
+}
+
+.container .photo2 img {
+    max-width: 100%;
+}
+
+.container .photo2 {
+    grid-row: 9/15;
+    grid-column: 5/10;
+}
+
+.container .zagolovok h2 {
+    font-family: CormorantInfant-MediumItalic;
+    font-weight: 200;
+    font-size: 34px;
+}
+
+.container .text p {
+    font-family: CormorantInfant-MediumItalic;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.rules {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.rules .images {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.nabor .container {
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nabor {
+    margin-bottom: 65px;
+    margin-top: 50px;
+}
+
+.nabor .container .text h2 {
+    font-size: 140px;
+    color: #bdb4ab;
+    font-family: "Cprmprantlnafant";
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    line-height: 145px;
+}
+
+.nabor .container .text {
+    display: flex;
+}
+
+.nabor .container .text .photoes {
+    background: url(../img/13.jpg);
+    width: 630px;
+    height: 390px;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nabor .container .text .photoes h2 {
+    font-size: 24px;
+    line-height: 25px;
+    color: #f1e9de;
+    font-family: "Montserrat";
+    font-weight: 300;
+
+}
+
+.nabor .container .text .photoes .butt {
+    margin-top: 20px;
+}
+
+
+.nabor .container .text .photoes .butt button {
+    background: none;
+    border: 1px solid #f1e9de;
+    color: #f1e9de;
+    width: 190px;
+    height: 55px;
+    border-radius: 30px;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 300;
+    transition: .5s;
+}
+
+.nabor .container .text .photoes .butt button:hover {
+    background-color: #f1e9de;
+    color: #988f87;
+    transition: .3s;
+}
+
+.inst {
+    margin-bottom: 160px;
+    margin-top: 150px;
+}
+
+.inst .container {
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inst .sub {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.inst .sub .logo {
+    background: url(../img/inst.svg);
+    width: 27px;
+    height: 27px;
+}
+
+.inst .sub a {
+    color: #756b62;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.inst .sub h2 {
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #988f87;
+    margin-left: 5px;
+}
+
+.container .photo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.container .photo .odin {
+    background: url(../img/14.jpg);
+    width: 360px;
+    height: 350px;
+}
+
+.container .photo .dva {
+    background: url(../img/15.jpg);
+    width: 360px;
+    height: 350px;
+}
+
+.container .photo .tre {
+    background: url(../img/16.jpg);
+    width: 360px;
+    height: 350px;
+}
+
+.container .photo .chetire {
+    background: url(../img/17.jpg);
+    width: 360px;
+    height: 350px;
+}
+
+.container .photo .piat {
+    background: url(../img/18.jpg);
+    width: 360px;
+    height: 350px;
+}
+
+.request .container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.request {
+    padding-top: 50px;
+    background: url(../img/19.jpg);
+}
+
+.request .container .text {
+    padding-top: 5px;
+}
+
+.request .container .text h2 {
+    font-size: 55px;
+    font-family: "Cprmprantlnafant";
+    font-style: italic;
+    color: #756b62;
+    line-height: 50px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.request .container .text h3 {
+    font-size: 24px;
+    font-family: "Cprmprantlnafant";
+    font-style: italic;
+    color: #988f87;
+}
+
+
+.request .container .inp {
+    display: flex;
+    flex-direction: column;
+    color: #988f87;
+}
+
+.request .container .inp .vibor {
+    display: flex;
+
+}
+
+.request .container .inp .vibor .v {
+    margin: 0;
+    padding: 0;
+    background: #988f87;
+}
+
+.request .container .inp .vibor h2 {
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #988f87;
+    margin-right: 15px;
+}
+
+.request .inp .i {
+    background: none;
+    width: 490px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #5e564f;
+    outline: none;
+}
+
+.request .inp input {
+    color: #988f87;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+
+}
+
+.request .soglas {
+    display: flex;
+    margin-left: 10px;
+}
+
+.request .soglas h3 {
+    font-size: 15px;
+    color: #988f87;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.request .drop {
+    background: none;
+    border: 1px solid #756b62;
+    color: #756b62;
+    width: 170px;
+    height: 45px;
+    border-radius: 30px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    transition: .5s;
+    margin-bottom: 160px;
+    margin-top: 50px;
+
+}
+
+.request .drop:hover {
+    background-color: #988f87;
+    color: #e6e5e5;
+    border: none;
+    transition: .3s;
+}
+
+.request .block1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.request .block2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width: 480px) {
+    .section-grid h1 {
+        grid-column: 7/11;
+        grid-row: 5/8;
+        z-index: 2;
+        color: gray;
+        font-family: Montseratt, cursive;
+    }
+
+    .section-grid img:nth-child(1) {
+        grid-column: 6/8;
+        grid-row: 2/6;
+    }
+
+    .section-grid img:nth-child(2) {
+        grid-column: 9/13;
+        grid-row: 3/8;
+        width: 50%;
+    }
+
+    .section-grid img:nth-child(3) {
+        grid-column: 7/11;
+        grid-row: 7/12;
+        width: 50%;
+    }
+
+    header .container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    header .container a {
+        margin-bottom: 6px;
+    }
+
+    .body-text {
+        margin-left: 6%;
+    }
+    .body-text p{
+        font-size: 18px;
+    }
+
+    .body1 {
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .body1 .body-bg img{
+        width: 90%;
+
+    }
+
+    .photo .about1 i {
+        margin-left: 0px;
+    }
+
+    .photo .about2 i {
+        margin-left: 0px;
+    }
+
+    .about1 img {
+        max-width: 150%;
+
+    }
+
+    .about2 img {
+        max-width: 150%;
+
+    }
+
+    .arrow {
+        margin-left: 50px
+    }
+
+    .about3 {
+        margin-left: 5px;
+    }
+
+    .about3 img {
+        max-width: 100%
+    }
+
+    .history .container {
+        width: 98%;
+    }
+
+    .history .container .photo1 {
+        grid-column: 8/10;
+        grid-row: 6/8;
+    }
+
+    .history .container .photo2 {
+        grid-column: 7/9;
+        grid-row: 9/11;
+    }
+
+    .history .zagolovok {
+        grid-column: 7/10;
+    }
+
+    .history .zagolovok h2 {
+        font-size: 20px;
+
+    }
+
+    .history .text {
+        grid-column: 7/11;
+        grid-row: 2/5;
+    }
+
+    .history .text p {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .rules {
+        width: 50%;
+    }
+
+    .rules .images img {
+        width: 50%;
+    }
+
+    .rules .images p {
+        font-size: 14px;
+    }
+
+    .nabor .container {
+        width: 98%;
+    }
+
+    .nabor .container .text h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .nabor .container .text .photoes {
+        aspect-ratio: 4/3;
+        width: 98%;
+        height: 30%;
+        margin-top: 0%;
+        opacity: 0.8;
+        margin-left: 0%;
+    }
+
+    .nabor .container .text .photoes h2 {
+        font-size: 18px;
+    }
+
+    .nabor .container .text .photoes .butt button {
+        width: 110%;
+        height: 120%;
+        font-size: 14px;
+    }
+
+    .inst .container .photo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .inst .container .photo .odin {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        margin-bottom: 10px;
+    }
+
+    .inst .container .photo .dva {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        margin-bottom: 10px;
+    }
+
+    .inst .container .photo .tre {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        margin-bottom: 10px;
+    }
+
+    .inst .container .photo .chetire {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        margin-bottom: 10px;
+    }
+
+    .inst .container .photo .piat {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        margin-bottom: 10px;
+    }
+
+    .request .container {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .request .container .block1 h2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .request .inp {
+        height: 50px;
+
+
+    }
+
+    .request .inp .i {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .request .block1 {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .request .container .text h3 {
+        font-size: 14px;
+        display: flex;
+        justify-content: start;
+    }
+
+    .request .container .text h2 {
+        font-size: 30px;
+        line-height: 24px;
+    }
+
+    .request .container .text {
+        margin-bottom: 10px;
+    }
+
+    .request .vibor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .request .soglas input{          
+        margin-right: 10px;
+    }
+    .request .drop {
+        margin-top: 175px;
+    }
+}
+
+@media (max-width: 720px) {
+    .section-grid h1 {
+        grid-column: 7/11;
+        grid-row: 5/8;
+        z-index: 2;
+        color: gray;
+        font-family: Montseratt, cursive;
+    }
+
+    .section-grid img:nth-child(1) {
+        grid-column: 6/8;
+        grid-row: 2/6;
+    }
+
+    .section-grid img:nth-child(2) {
+        grid-column: 9/13;
+        grid-row: 3/8;
+        width: 50%;
+    }
+
+    .section-grid img:nth-child(3) {
+        grid-column: 7/11;
+        grid-row: 7/12;
+        width: 50%;
+    }
+
+    header .container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    header .container a {
+        margin-bottom: 6px;
+    }
+
+    .body-text {
+        margin-left: 6%;
+    }
+    .body-text p{
+        font-size: 18px;
+    }
+
+    .body1 {
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .body1 .body-bg img{
+        width: 90%;
+
+    }
+
+    .photo .about1 i {
+        margin-left: 0px;
+    }
+
+    .photo .about2 i {
+        margin-left: 0px;
+    }
+
+    .about1 img {
+        max-width: 150%;
+
+    }
+
+    .about2 img {
+        max-width: 150%;
+
+    }
+
+    .arrow {
+        margin-left: 50px
+    }
+
+    .about3 {
+        margin-left: 5px;
+    }
+
+    .about3 img {
+        max-width: 100%
+    }
+
+    .history .container {
+        width: 98%;
+    }
+
+    .history .container .photo1 {
+        grid-column: 8/10;
+        grid-row: 6/8;
+    }
+
+    .history .container .photo2 {
+        grid-column: 7/9;
+        grid-row: 10/12;
+    }
+
+    .history .zagolovok {
+        grid-column: 7/10;
+    }
+
+    .history .zagolovok h2 {
+        font-size: 20px;
+
+    }
+
+    .history .text {
+        grid-column: 7/10;
+        grid-row: 2/5;
+    }
+
+    .history .text p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .rules {
+        width: 50%;
+    }
+
+    .rules .images img {
+        width: 50%;
+    }
+
+    .rules .images p {
+        font-size: 14px;
+    }
+
+    .nabor .container {
+        width: 98%;
+    }
+
+    .nabor .container .text h2 {
+        font-size: 30px;
+        width: 70%;
+        line-height: 30px;
+    }
+
+    .nabor .container .text .photoes {        
+        width: 60%;
+        height: 30%;
+        margin-top: 0%;
+        justify-content: center;
+        opacity: 0.8;
+        margin-left: 0%;
+    }
+
+    .nabor .container .text .photoes h2 {
+        font-size: 18px;
+    }
+
+    .nabor .container .text .photoes .butt button {
+        width: 110%;
+        height: 120%;
+        font-size: 14px;
+    }
+
+    .inst .container .photo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .inst .container .photo .odin {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        margin-bottom: 10px;
+    }
+
+    .inst .container .photo .dva {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        margin-bottom: 10px;
+    }
+
+    .inst .container .photo .tre {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        margin-bottom: 10px;
+    }
+
+    .inst .container .photo .chetire {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        margin-bottom: 10px;
+    }
+
+    .inst .container .photo .piat {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        margin-bottom: 10px;
+    }
+
+    .request .container {
+        width: 75%;
+        margin-left: 5%;
+    }
+
+    .request .container .block1 h2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .request .inp {
+        height: 50px;
+
+
+    }
+
+    .request .inp .i {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .request .block1 {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .request .container .text h3 {
+        font-size: 14px;
+        display: flex;
+        justify-content: start;
+    }
+
+    .request .container .text h2 {
+        font-size: 30px;
+        line-height: 24px;
+    }
+
+    .request .container .text {
+        margin-bottom: 10px;
+    }
+
+    .request .vibor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .request .soglas input{          
+        margin-right: 10px;
+    }
+    .request .drop {
+        margin-top: 175px;
+    }
+}
